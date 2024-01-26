@@ -1,6 +1,6 @@
-import { showSlides } from './herobanner.js';
+import {showSlides} from './herobanner.js';
 // Function to add same header and footer to all html pages with id="header" or "footer"
-async function includeHTML() {
+/* async function includeHTML() {
   // Fetch the header HTML
   const headerFetch = await fetch('header.html');
   const headerHtml = await headerFetch.text();
@@ -12,7 +12,7 @@ async function includeHTML() {
   document.querySelector('footer').innerHTML = footerHtml;
 }
 
-includeHTML();
+includeHTML(); */
 
 // Herobanner slideshow
 showSlides();
